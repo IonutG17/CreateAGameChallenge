@@ -36,9 +36,9 @@ public class CreateAGameChallenge {
                     numberGuessed = true;
                     break;
                 } else if (myRandomNumber > userNumber && i != 5) {
-                    System.out.println("Go higher!");
+                    System.out.println("\tGo higher!");
                 } else if (myRandomNumber < userNumber && i != 5) {
-                    System.out.println("Go lower!");
+                    System.out.println("\tGo lower!");
                 }
             }
 
